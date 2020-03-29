@@ -1,0 +1,918 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel init
+Activate debug message on channel boot
+Activate debug message on channel radio
+Activate debug message on channel radio_send
+Activate debug message on channel radio_ack
+Activate debug message on channel radio_rec
+Activate debug message on channel radio_pack
+Activate debug message on channel role
+Creating node 1...
+>>>Will boot at time 0 [sec]
+Creating node 2...
+>>>Will boot at time 5 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  1  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  1  with gain  -60.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (1): Application booted on node 1.
+DEBUG (1): Radio On. 
+DEBUG (1): node 1 start sending request.... :
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 1 
+DEBUG (1): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 2 
+DEBUG (1): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 3 
+DEBUG (1): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 4 
+DEBUG (1): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 5 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Application booted on node 2.
+DEBUG (2): Radio On. 
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 6 
+DEBUG (2): Received packet at time 0:0:5.865859957
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 6 
+DEBUG (1): Response Packet sent... at time 0:0:5.866027803 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 6 
+		 data: 245 
+
+ 
+ DEBUG (1): Received packet at time 0:0:5.883254966
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 6 
+DEBUG (2): Response Packet sent... at time 0:0:5.883422812 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 7 
+DEBUG (2): Received packet at time 0:0:6.845596267
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 7 
+DEBUG (1): Response Packet sent... at time 0:0:6.845764112 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 7 
+		 data: 211 
+
+ 
+ DEBUG (1): Received packet at time 0:0:6.863571124
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 7 
+DEBUG (2): Response Packet sent... at time 0:0:6.863738969 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 8 
+DEBUG (2): Received packet at time 0:0:7.815475456
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 8 
+DEBUG (1): Response Packet sent... at time 0:0:7.815643302 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 8 
+		 data: 141 
+
+ 
+ DEBUG (1): Received packet at time 0:0:7.831115698
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 8 
+DEBUG (2): Response Packet sent... at time 0:0:7.831283543 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 9 
+DEBUG (2): Received packet at time 0:0:8.791030882
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 9 
+DEBUG (1): Response Packet sent... at time 0:0:8.791198728 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 9 
+		 data: 127 
+
+ 
+ DEBUG (1): Received packet at time 0:0:8.803710930
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 9 
+DEBUG (2): Response Packet sent... at time 0:0:8.803878776 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 10 
+DEBUG (2): Received packet at time 0:0:9.773254360
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 10 
+DEBUG (1): Response Packet sent... at time 0:0:9.773422205 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 10 
+		 data: 135 
+
+ 
+ DEBUG (1): Received packet at time 0:0:9.789596524
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 10 
+DEBUG (2): Response Packet sent... at time 0:0:9.789764370 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 11 
+DEBUG (2): Received packet at time 0:0:10.749572720
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 11 
+DEBUG (1): Response Packet sent... at time 0:0:10.749740566 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 11 
+		 data: 88 
+
+ 
+ DEBUG (1): Received packet at time 0:0:10.761276240
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 11 
+DEBUG (2): Response Packet sent... at time 0:0:10.761444086 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 12 
+DEBUG (2): Received packet at time 0:0:11.723190291
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 12 
+DEBUG (1): Response Packet sent... at time 0:0:11.723358137 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 12 
+		 data: 136 
+
+ 
+ DEBUG (1): Received packet at time 0:0:11.740524254
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 12 
+DEBUG (2): Response Packet sent... at time 0:0:11.740692100 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 13 
+DEBUG (1): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 14 
+DEBUG (2): Received packet at time 0:0:13.682052562
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 14 
+DEBUG (1): Response Packet sent... at time 0:0:13.682220408 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 14 
+		 data: 252 
+
+ 
+ DEBUG (1): Received packet at time 0:0:13.696807839
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 14 
+DEBUG (2): Response Packet sent... at time 0:0:13.696975685 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 15 
+DEBUG (2): Received packet at time 0:0:14.658096267
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 15 
+DEBUG (1): Response Packet sent... at time 0:0:14.658264112 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 15 
+		 data: 203 
+
+ 
+ DEBUG (1): Received packet at time 0:0:14.673171971
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 15 
+DEBUG (2): Response Packet sent... at time 0:0:14.673339816 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 16 
+DEBUG (2): Received packet at time 0:0:15.630706763
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 16 
+DEBUG (1): Response Packet sent... at time 0:0:15.630874609 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 16 
+		 data: 233 
+
+ 
+ DEBUG (1): Received packet at time 0:0:15.642654411
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 16 
+DEBUG (2): Response Packet sent... at time 0:0:15.642822257 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 17 
+DEBUG (2): Received packet at time 0:0:16.605590806
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 17 
+DEBUG (1): Response Packet sent... at time 0:0:16.605758652 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 17 
+		 data: 201 
+
+ 
+ DEBUG (1): Received packet at time 0:0:16.622253387
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 17 
+DEBUG (2): Response Packet sent... at time 0:0:16.622421232 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 18 
+DEBUG (2): Received packet at time 0:0:17.583435037
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 18 
+DEBUG (1): Response Packet sent... at time 0:0:17.583602883 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 18 
+		 data: 0 
+
+ 
+ DEBUG (1): Received packet at time 0:0:17.597076400
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 18 
+DEBUG (2): Response Packet sent... at time 0:0:17.597244246 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 19 
+DEBUG (2): Received packet at time 0:0:18.563095053
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 19 
+DEBUG (1): Response Packet sent... at time 0:0:18.563262899 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 19 
+		 data: 166 
+
+ 
+ DEBUG (1): Received packet at time 0:0:18.581359820
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 19 
+DEBUG (2): Response Packet sent... at time 0:0:18.581527665 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 20 
+DEBUG (2): Received packet at time 0:0:19.534240715
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 20 
+DEBUG (1): Response Packet sent... at time 0:0:19.534408560 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 20 
+		 data: 166 
+
+ 
+ DEBUG (1): Received packet at time 0:0:19.549468971
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 20 
+DEBUG (2): Response Packet sent... at time 0:0:19.549636817 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 21 
+DEBUG (2): Received packet at time 0:0:20.517532301
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 21 
+DEBUG (1): Response Packet sent... at time 0:0:20.517700147 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 21 
+		 data: 25 
+
+ 
+ DEBUG (1): Received packet at time 0:0:20.532745334
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 21 
+DEBUG (2): Response Packet sent... at time 0:0:20.532913179 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 22 
+DEBUG (1): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 23 
+DEBUG (2): Received packet at time 0:0:22.464355458
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 23 
+DEBUG (1): Response Packet sent... at time 0:0:22.464523304 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 23 
+		 data: 214 
+
+ 
+ DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 24 
+DEBUG (2): Received packet at time 0:0:23.440200799
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 24 
+DEBUG (1): Response Packet sent... at time 0:0:23.440368645 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 24 
+		 data: 71 
+
+ 
+ DEBUG (1): Received packet at time 0:0:23.459228467
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 24 
+DEBUG (2): Response Packet sent... at time 0:0:23.459396312 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 25 
+DEBUG (2): Received packet at time 0:0:24.417709339
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 25 
+DEBUG (1): Response Packet sent... at time 0:0:24.417877185 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 25 
+		 data: 51 
+
+ 
+ DEBUG (1): Received packet at time 0:0:24.437652534
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 25 
+DEBUG (2): Response Packet sent... at time 0:0:24.437820380 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 26 
+DEBUG (2): Received packet at time 0:0:25.398834190
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 26 
+DEBUG (1): Response Packet sent... at time 0:0:25.399002036 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 26 
+		 data: 201 
+
+ 
+ DEBUG (1): Received packet at time 0:0:25.412567123
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 26 
+DEBUG (2): Response Packet sent... at time 0:0:25.412734968 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 27 
+DEBUG (2): Received packet at time 0:0:26.377670236
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 27 
+DEBUG (1): Response Packet sent... at time 0:0:26.377838082 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 27 
+		 data: 252 
+
+ 
+ DEBUG (1): Received packet at time 0:0:26.396667432
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 27 
+DEBUG (2): Response Packet sent... at time 0:0:26.396835278 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 28 
+DEBUG (2): Received packet at time 0:0:27.346282954
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 28 
+DEBUG (1): Response Packet sent... at time 0:0:27.346450799 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 28 
+		 data: 142 
+
+ 
+ DEBUG (1): Received packet at time 0:0:27.363128627
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 28 
+DEBUG (2): Response Packet sent... at time 0:0:27.363296473 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 29 
+DEBUG (2): Received packet at time 0:0:28.329238849
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 29 
+DEBUG (1): Response Packet sent... at time 0:0:28.329406695 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 29 
+		 data: 53 
+
+ 
+ DEBUG (1): Received packet at time 0:0:28.341247554
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 29 
+DEBUG (2): Response Packet sent... at time 0:0:28.341415400 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 30 
+DEBUG (2): Received packet at time 0:0:29.299667352
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 30 
+DEBUG (1): Response Packet sent... at time 0:0:29.299835197 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 30 
+		 data: 136 
+
+ 
+ DEBUG (1): Received packet at time 0:0:29.315322846
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 30 
+DEBUG (2): Response Packet sent... at time 0:0:29.315490692 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 31 
+DEBUG (2): Received packet at time 0:0:30.278869607
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 31 
+DEBUG (1): Response Packet sent... at time 0:0:30.279037452 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 31 
+		 data: 17 
+
+ 
+ DEBUG (1): Received packet at time 0:0:30.290771478
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 31 
+DEBUG (2): Response Packet sent... at time 0:0:30.290939324 
+DEBUG (2): packet sent ^-^
+DEBUG (1): Preparing the Request message ... 
+DEBUG (1): Packet passed to lower layer successfully!
+DEBUG (1): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 1 
+ 		 counter: 32 
+DEBUG (2): Received packet at time 0:0:31.253250113
+DEBUG (2):  Payload length 4 
+DEBUG (2): >>>Pack 
+		 Payload Received
+		 type: 1 
+ 		 counter: 32 
+DEBUG (1): Response Packet sent... at time 0:0:31.253417958 
+DEBUG (1): packet sent ^-^
+DEBUG (2): Preparing the Req message ... 
+DEBUG (2): Respose Packet passed to lower layer successfully!
+DEBUG (2): >>>Pack
+ 	 Payload length 4 
+	 Payload Sent
+		 type: 2 
+ 		 counter: 32 
+		 data: 10 
+
+ 
+ DEBUG (1): Received packet at time 0:0:31.269836394
+DEBUG (1):  Payload length 4 
+DEBUG (1): >>>Pack 
+		 Payload Received
+		 type: 2 
+ 		 counter: 32 
+DEBUG (2): Response Packet sent... at time 0:0:31.270004239 
+DEBUG (2): packet sent ^-^
+
+
+
+Simulation finished!
+
