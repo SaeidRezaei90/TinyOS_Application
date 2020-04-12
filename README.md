@@ -17,7 +17,7 @@ also I have two files with .nc that one of them with name of describe appC and C
 
 in ~appC.nc file I have configuration and implementation of things that is in project. (e.g. timer) for ~C.nc file I have all the program code here for used module interfaces and running events.
 
-we can see the result of tossim below in CLI
+we can see the result of tossim in [ResultLogs.txt file](ResultLogs.txt)
 
 
 The simulation is done in TOSSIM. TOSSIM is the TinyOS simulator. It’s a discrete event simulator. This means that it maintains a 
