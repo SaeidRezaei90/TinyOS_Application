@@ -19,8 +19,11 @@ in ~appC.nc file I have configuration and implementation of things that is in pr
 
 we can see the result of tossim in [ResultLogs.txt file](ResultLogs.txt)
 
+ <div style="float:center">
+ <img  src="SendAck.PNG" width=500>
+  </div>
 
-The simulation is done in TOSSIM. TOSSIM is the TinyOS simulator. It’s a discrete event simulator. This means that it maintains a 
-sorted queue of events. At each step the event with the oldest timestamp is extracted and executed. 
-Each event can add new events to the queue.
-[In this document](http://didawiki.cli.di.unipi.it/lib/exe/fetch.php/rhs/tossim.manuale.pdf) you can find more information about TOSSIM.
+## TOSSIM simulator
+[TOSSIM simulation](http://tinyos.stanford.edu/tinyos-wiki/index.php/TOSSIM) entire TinyOS applications. It’s a discrete event simulator. This means that it maintains a sorted queue of events. At each step the event with the oldest timestamp is extracted and executed. Each event can add new events to the queue.
+To compile and build files for tossim simulation  :~$ make micaz sim command is used, after that run the python simulation file
+You can also find more information about TOSSIM [In this document](http://didawiki.cli.di.unipi.it/lib/exe/fetch.php/rhs/tossim.manuale.pdf).
